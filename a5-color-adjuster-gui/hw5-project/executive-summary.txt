@@ -1,0 +1,35 @@
+﻿Assignment name: Assignment 5
+TCSS 305 C: Programming Practicum, Winter 2023
+
+
+Name: James Fischer
+UWNetID: 2375522 
+
+
+Assignment Overview:
+The purpose of this assignment is to deepen understanding of graphical user interfaces (GUIs) and event-driven programming in Java using Swing. The project focuses on creating an interactive application that manipulates a color model through individual RGB components. The goal is to implement event listeners for GUI components to enable user interaction with sliders, buttons, and text fields, dynamically updating the color model and ensuring synchronization across the UI.
+
+This assignment emphasizes the Model-View-Controller (MVC) design pattern. The ColorModel represents the data model, storing and managing the RGB values, while the GUI panels (BlueRowPanel, GreenRowPanel, and RedRowPanel) serve as the view and controller, interacting with the model and handling user input. The inclusion of PropertyChangeListeners ensures real-time updates across the application, maintaining consistency between the model and the user interface.
+
+
+Technical Impression:
+To complete the assignment, I implemented event listeners and handlers for the graphical user interface (GUI) components in the BlueRowPanel, GreenRowPanel, and RedRowPanel classes. These panels interact with the ColorModel to manipulate the red, green, and blue (RGB) components of a color dynamically. I focused on ensuring that each panel's text fields, sliders, buttons, and checkboxes functioned correctly and updated both the model and the UI in real-time.
+
+Initially, setting up the event listeners for the text fields and validating user input was straightforward but required careful handling of edge cases. For instance, when a user entered invalid data (e.g., out-of-range values or non-numeric characters), I implemented mechanisms to reset the text field to the correct value from the model. Synchronizing the slider and buttons with the color value added complexity but also highlighted the importance of cohesive updates across all components.
+
+
+Unresolved problems in my submission:
+
+None.
+
+All required features have been implemented, and the program has been thoroughly tested to ensure correct functionality. No bugs, unhandled exceptions, or warnings were encountered during testing. All components (text fields, sliders, buttons, and checkboxes) respond correctly, and the program meets the assignment specifications.
+
+
+Citations and Collaborations:
+none
+
+Extra Credit Attempted:
+none; didn't want to mess anything up
+
+Questions:
+none

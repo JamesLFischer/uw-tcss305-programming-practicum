@@ -1,0 +1,34 @@
+Assignment name: Craps Games
+TCSS 305 C: Programming Practicum
+
+
+Name: James Fischer
+UWNetID: 2375522
+
+
+Assignment Overview:
+
+The Game of Craps project required implementing a Java-based dice game with detailed gameplay rules. The focus was on creating a GUI using Java Swing and adhering to the Model-View-Controller (MVC) design pattern. The game tracks player wins, house wins, and manages a bank account with betting functionality. Additional requirements included menu options for game control and help, user interaction for betting and rolling dice, and dynamic updates based on game state. The project encouraged creative design while ensuring functionality and robustness.
+
+
+Technical Impression:
+
+This assignment provided an excellent opportunity to apply object-oriented programming concepts and Java Swing for GUI design. The MVC architecture enforced a clean separation of concerns:
+
+Model: Encapsulated game logic and bank account management, ensuring reusable and testable components.
+View: Delivered an interactive and user-friendly interface with real-time updates on dice rolls, win/loss statuses, and bank balance.
+Controller: Managed communication between the model and view, ensuring state transitions were seamless and intuitive.
+The inclusion of features like input validation, error handling, and dynamic enabling/disabling of buttons showcased the importance of user experience and program robustness. The optional extra credit (e.g., adding images or sounds) allowed room for creativity, making the assignment engaging and expandable. Overall, it demonstrated the integration of programming principles with practical UI development, resulting in a comprehensive and enjoyable project.
+
+
+Unresolved problems in my submission:
+none
+
+Citations and Collaborations:
+none
+
+Extra credit:
+none
+
+Questions:
+none

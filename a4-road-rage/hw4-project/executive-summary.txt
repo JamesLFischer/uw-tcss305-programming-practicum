@@ -1,0 +1,46 @@
+﻿Assignment name: Road Rage
+TCSS 305 C: Programming Practicum
+
+
+Name: James Fischer
+UWNetID: 2375522
+
+
+Assignment Overview:
+This assignment focuses on designing and implementing a simulation of vehicle behaviors on a dynamic city grid using object-oriented programming principles such as inheritance, polymorphism, and encapsulation. The primary goal is to create a hierarchy of vehicle classes (Truck, Car, Taxi, ATV, Bicycle, and Human) with distinct behaviors for movement, collision handling, and interactions with the environment. Each vehicle must operate within specific constraints, such as terrain types and traffic light conditions, while adhering to its unique rules for choosing directions and responding to collisions.
+
+The scope extends beyond basic implementation by requiring an abstract parent class, AbstractVehicle, to encapsulate shared behaviors and reduce redundancy. Additionally, the assignment emphasizes modularity and maintainability through the use of interfaces, abstract methods, and unit testing. Writing unit tests, particularly for the Truck class, ensures that vehicle behaviors are predictable and align with the given specifications.
+
+The assignment also introduces GUI integration, where vehicles interact visually on a simulated city map, providing an opportunity to see the practical application of the implemented logic. This simulation reinforces the importance of correctness, as any errors in logic or movement can disrupt the animation or violate the defined behaviors.
+
+Overall, the assignment encourages critical thinking about software design, testing, and debugging, while offering hands-on experience in applying advanced programming concepts in Java to build a realistic and functional simulation.
+
+Technical Impression:
+To complete this assignment, I first reviewed the project requirements to fully understand the behaviors and interactions expected from each vehicle type. I began by implementing the AbstractVehicle class, which serves as the foundation for all vehicle subclasses. This abstract class encapsulated common functionality such as movement, collision handling, and revival logic, reducing redundancy and ensuring consistency across the hierarchy.
+
+I then developed individual subclasses for Truck, Car, Taxi, ATV, Bicycle, and Human, carefully tailoring their behaviors to the specifications. This included their unique rules for movement, terrain traversal, and responses to traffic lights and collisions. One of the challenges was implementing the chooseDirection method, as each vehicle required distinct logic to prioritize movement directions. Balancing the need for clear logic while adhering to the recommended cyclomatic complexity limits required significant effort, but helper methods simplified this process.
+
+
+Unresolved problems in my submission:
+
+Here are the issues I am aware of in my submission:
+
+Limited Unit Testing: While I thoroughly tested the Truck class, I did not have time to implement unit tests for other vehicle classes such as Car, Taxi, Bicycle, and Human. This could result in untested edge cases in their movement or collision logic.
+
+Extra Credit Features: I did not implement the extra credit feature of using the Stream API to simplify the chooseDirection method into a single statement. All chooseDirection methods currently use traditional control structures.
+
+Warnings from Tools: While I resolved most warnings flagged by CheckStyle and PMD, a few minor warnings about line length and cyclomatic complexity in certain methods (e.g., chooseDirection) remain unaddressed. These were challenging to reduce further without compromising readability.
+
+Potential GUI Integration Issues: While the simulation runs and vehicles behave correctly in most cases, there may still be edge cases where interactions between vehicles or terrain might not function as intended. I didn’t have time to test all scenarios exhaustively in the GUI.
+
+FileLoader Dependency: The FileLoader.readCity() method was assumed to work correctly, but I couldn’t verify it in detail. Any issues in its implementation might affect the initialization of the simulation.
+
+
+Citations and Collaborations:
+none
+
+Extra credit:
+none
+
+Questions:
+none

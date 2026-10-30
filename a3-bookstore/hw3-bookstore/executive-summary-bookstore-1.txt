@@ -1,0 +1,27 @@
+Assignment name: Bookstore
+
+Name: James Fischer
+UWNetID: 2375522
+
+
+Assignment Overview:
+The purpose of this assignment is to create a bookstore management system that handles user credentials, inventory management, and shopping functionality. It involves implementing key features such as user authentication (login and registration), loading configuration files for different campus stores, and managing product inventory for those stores. The system aims to simulate a real-world bookstore experience by allowing users to log in, view items available for sale, and potentially place items in a shopping cart.
+
+The scope of the project includes multiple components such as reading and writing to files, processing user inputs, and ensuring secure credential storage using hashing and salting techniques. A significant aspect of the assignment is working with file I/O for loading data like user credentials and campus inventory from external files. Additionally, the project involves creating a graphical user interface (GUI) to enhance user interaction with the system, making it more accessible and user-friendly.
+
+Technical Impression:
+To complete this assignment, I worked on building a functional bookstore management system that handles user credentials, inventory management, and user interactions via a graphical interface. The project was divided into several key tasks, each of which required attention to detail and coordination between different parts of the codebase.
+
+One of the first tasks I tackled was setting up the user credentialing system using secure password hashing and salting. This involved reading and writing user data from external files and ensuring that sensitive information, such as passwords, was stored securely. 
+
+Unresolved problems in my submission:
+I wasn't able to get the full site up with cart functionality, I struggled for so long trying to get that up, this submission is the best I could do. 
+
+Citations and Collaborations:
+none
+
+Questions:
+none
+
+Extra Credit:
+Extra credit was implemented

@@ -1,0 +1,25 @@
+Assignment name: Assignment 2
+TCSS 305 C: Programming Practicum, Winter 2023
+
+Name: James Fischer
+UWNetID: 2375522
+
+
+Assignment Overview:
+This assignment focuses on practicing key object-oriented programming concepts like inheritance, visibility, and the implementation of interfaces. We'll create an inheritance hierarchy of shapes, starting with an abstract class, AbstractShape, which will provide basic structure and enforce implementation of methods like area() and name(). We then build concrete classes like Circle, Square, Rectangle, and Triangle, ensuring proper encapsulation, final fields, and constructor validation. We'll also implement the Comparable interface and override equals() and hashCode() methods. The ShapeFactory class will provide static methods for creating these shape objects, and a ShapeTester class will test, sort, and display the shapes. 
+
+Technical Impression:
+To complete this assignment, I developed a hierarchy of shape classes, starting with an abstract base class, AbstractShape, and extending it with concrete shape classes such as Circle, Square, Triangle, and Rectangle. I ensured all classes followed the required structure, implementing methods like area(), name(), and overriding compareTo(), equals(), and hashCode() where necessary. Each shape class was designed with proper encapsulation and visibility modifiers, using final for fields and classes as per the project requirements. I also implemented a ShapeFactory class with static methods to simplify object creation, which I found particularly interesting because of the simplicity it brought to the overall structure.
+
+Unresolved problems in my submission:
+There are a few warnings from CheckStyle and PMD that I could not resolve, particularly related to naming conventions and visibility modifiers. Additionally, while the sorting of shapes based on name and area works correctly, I wasn't able to fully test edge cases for compareTo(). Aside from these issues, I believe all required features have been implemented as specified.
+
+Citations and Collaborations:
+https://canvas.uw.edu/courses/1753583/assignments/9633966
+
+Extra Credit:
+none I wish there was extra credit for this HW
+
+Questions:
+none
+

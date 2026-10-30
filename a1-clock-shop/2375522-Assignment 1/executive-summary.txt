@@ -1,0 +1,43 @@
+Assignment name: Assignment 1
+TCSS 305 C: Programming Practicum, Winter 2023
+
+Name: James Fischer
+UWNetID: 2375522
+
+Hours Spent: 20
+
+
+Assignment Overview:
+The assignment aims to create a Clock and ClockShop class that can efficiently manage and work with several clock objects. The Clock class provides methods for setting the time, advancing the time, and formatting output. It acts as a representation of a single clock, encapsulating its state through hours, minutes, and seconds. The validity and adherence to the 24-hour format of all time values must be guaranteed by this class.
+
+In contrast, the ClockShop class serves as a container for several Clock objects, enabling actions like adding, deleting, and accessing specific clocks. It is intended to make the management of clock collections easier. One feature that makes this possible is the ability to load the shop from a file, enabling the testing of multiple situations with varying clock configurations. 
+
+Technical Impression:
+To complete the assignment, I began by carefully reading the requirements and objectives outlined in the project rubric. This helped me establish a clear understanding of the functionalities I needed to implement in both the Clock and ClockShop classes.
+
+I first focused on developing the Clock class, which involved implementing the core functionalities for managing a single clock. This included creating constructors for default and specified times, along with setter methods that enforce time validity. I used the Calendar class to implement a method that sets the clock to the current system time. Implementing methods to advance the clock by hours and minutes required careful consideration of overflow conditions to ensure accurate timekeeping.
+
+After finalizing the Clock class, I moved on to the ClockShop class, which is responsible for managing multiple Clock objects. I designed methods to add clocks, remove them, and retrieve specific clocks by their index. I also implemented file reading capabilities, allowing the ClockShop to fill itself with clock data from a specified text file.
+
+One of the challenges I faced was ensuring that the input data from the text files adhered to the required format, especially when dealing with hours and minutes that could be written in single digits. This required me to implement additional validation checks to catch any potential parsing errors. I also had to write unit tests to validate the functionalities of both classes, which was initially overwhelming due to the number of scenarios I needed to cover. However, I found this process to be rewarding, as it reinforced my understanding of testing and the importance of ensuring that my code functions as intended.
+
+Throughout the assignment, I was frustrated with the compiler and ensuring that my file paths were correct when running the tests. I had to double-check my directory structure multiple times, which delayed my progress slightly.
+
+Unresolved problems in my submission:
+When comparing my outputs to my professors there were some differences which were worrisome, but I've spent so much time on this assignment already that I'm at the point where I'm actually pretty proud of the work I have done and am willing to make do with it, all my tests passed but there were some differences between my and the professors output. I think these worries will be put to rest once this is graded and I can apply how my project was graded towards future assignments! 
+
+Citations and Collaborations:
+https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Scanner.html
+
+
+Extra Credit:
+For the extra credit component of the ClockShop assignment, I made two significant enhancements to my implementation.
+Delimiter Change in fillClockShop(): I modified the fillClockShop() method to change the delimiter for reading time inputs from the input file. Initially, the program was using whitespace as the delimiter, which caused issues when parsing the time values formatted with colons. I changed the Scanner’s delimiter to accept both colons (':') and newlines ('\n'). This allowed me to read the hours, minutes, and seconds more effectively using the next () method.
+
+Implementation of setToCurrentTime(): I wrote the setToCurrentTime() method, which sets the clock's time based on the current system time. To achieve this, I utilized the Calendar class to retrieve the current hour, minute, and second from the system. I ensured that this method correctly updated the clock's internal state. To validate its functionality, I created an additional test code that invokes setToCurrentTime() and captures the output. 
+
+Overall, these enhancements not only met the extra credit criteria but also contributed to a more rich application.
+
+Questions:
+none
+
