@@ -39,7 +39,7 @@ import model.Vehicle;
  * @version 05 OCT 2018
  * @author Marty Stepp
  * @author Daniel M. Zimmerman
- * @author Alan Fowler (acfowler@u.washington.edu)
+ * @author Alan Fowler
  * @author Charles Bryan
  * 
  */

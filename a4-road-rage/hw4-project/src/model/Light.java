@@ -9,7 +9,7 @@ package model;
  * 
  * @author Marty Stepp
  * @author Daniel M. Zimmerman
- * @author Alan Fowler (acfowler@u.washington.edu)
+ * @author Alan Fowler
  * @version 1.1
  */
 

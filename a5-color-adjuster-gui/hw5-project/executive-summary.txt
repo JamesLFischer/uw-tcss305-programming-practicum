@@ -3,7 +3,6 @@ TCSS 305 C: Programming Practicum, Winter 2023
 
 
 Name: James Fischer
-UWNetID: 2375522 
 
 
 Assignment Overview:

@@ -1,7 +1,6 @@
 Assignment name: Bookstore
 
 Name: James Fischer
-UWNetID: 2375522
 
 
 Assignment Overview:

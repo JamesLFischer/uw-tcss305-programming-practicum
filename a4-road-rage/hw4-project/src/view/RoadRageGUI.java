@@ -29,7 +29,7 @@ import logic.PropertyChangeEnabledRoadRageControls;
  * 
  * @author Marty Stepp
  * @author Daniel M. Zimmerman
- * @author Alan Fowler (acfowler@u.washington.edu)
+ * @author Alan Fowler
  * @author Charles Bryan  (Decomposed into separate classes)
  * @version Autumn 2018
  */

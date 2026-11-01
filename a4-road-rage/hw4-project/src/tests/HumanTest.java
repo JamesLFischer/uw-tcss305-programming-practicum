@@ -19,8 +19,8 @@ import org.junit.jupiter.api.Test;
 /**
  * Unit tests for class Human.
  *
- * @author Alan Fowler (acfowler@uw.edu)
- * @author Tom Capaul (tcapaul@uw.edu)
+ * @author Alan Fowler
+ * @author Tom Capaul
  * @version Fall 2022
  */
 public class HumanTest {
